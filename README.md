@@ -38,6 +38,10 @@ A descriptive and informative abstract explaining what data mining is, key techn
 A recommendation report proposing the replacement of outdated exit signs with cost-efficient self-illuminating signs.  
 📄 [View PDF](Self_Illuminating_Signs_Assignment.pdf)
 
+### **3️⃣ Cybersecurity and Ransomware**  
+A research report that examines ransomware prevention techniques, evaluates how effective they are at reducing attacks, and analyzes whether organizations should pay a ransom.  
+📄 [View PDF](7.1 Assignment.pdf)
+
 ---
 
 ## 🛠 Additional Projects
@@ -49,7 +53,7 @@ More projects will be added to the portfolio soon.
 ## 📫 Contact
 
 If you’d like to connect or view additional work:  
-📧 *Your email here*  
-🔗 *LinkedIn or GitHub profile link*  
+📧 Julia.Calabrese66@gmail.com  
+🔗 www.linkedin.com/in/julia-calabrese-0b20a8239 
 
 ---
