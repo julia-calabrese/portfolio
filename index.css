@@ -1,108 +1,160 @@
-/* General Layout */
+/* ------- Global Styles ------- */
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #f7f7f7;
-    color: #333;
-    line-height: 1.6;
+    font-family: "Georgia", serif;
+    background: #f5efe4; /* warm beige */
+    color: #3c2f23;      /* deep brown */
+    line-height: 1.7;
 }
 
+/* Container */
 .container {
     width: 90%;
     max-width: 1100px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-/* Header */
+/* ------- Header ------- */
 header {
-    background: #0a1f44;
-    color: white;
+    background: #d9c7a6; /* tan */
+    border-bottom: 2px solid #b8a17c;
     padding: 20px 0;
 }
 
-header .logo {
-    margin: 0;
-    font-size: 28px;
+.logo {
+    font-size: 1.8rem;
     font-weight: bold;
+    color: #4a3b2c;
 }
 
-header nav ul {
-    padding: 0;
+nav ul {
     list-style: none;
     display: flex;
     gap: 25px;
+    margin: 0;
+    padding: 0;
 }
 
-header nav a {
-    color: white;
+nav a {
     text-decoration: none;
-    font-weight: 500;
+    color: #4a3b2c;
+    font-weight: bold;
+    transition: color 0.2s;
 }
 
-header nav a:hover {
-    text-decoration: underline;
+nav a:hover {
+    color: #2c1f15;
 }
 
-/* Hero Section */
+/* Flex layout for header */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ------- Hero Section ------- */
 .hero {
-    background: #dce6f2;
-    padding: 80px 0;
+    background: #e8dcc4; /* lighter beige */
+    padding: 80px 20px;
     text-align: center;
+    border-bottom: 2px solid #d1bea0;
 }
 
 .hero h2 {
-    font-size: 40px;
+    font-size: 2.4rem;
     margin-bottom: 10px;
+    color: #4a3b2c;
 }
 
-/* Sections */
+.hero p {
+    font-size: 1.2rem;
+    color: #5a4b3a;
+}
+
+/* ------- Sections ------- */
 .section {
     padding: 60px 0;
 }
 
-.bg-light {
-    background: #fff;
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+    border-left: 6px solid #8a6d4a; /* warm accent brown */
+    padding-left: 12px;
+    color: #3c2f23;
 }
 
-/* Cards */
+.section p {
+    max-width: 800px;
+    color: #4b3c30;
+}
+
+/* Light background section */
+.bg-light {
+    background: #f0e6d8;
+    border-top: 1px solid #d1bea0;
+    border-bottom: 1px solid #d1bea0;
+}
+
+/* ------- Card Grid ------- */
 .card-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 25px;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .card {
-    background: #fafafa;
+    background: #fffaf3;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #d1bea0;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 .card h3 {
     margin-top: 0;
+    color: #4a3b2c;
 }
 
+.card p {
+    color: #5a4b3a;
+}
+
+/* Button Styles */
 .btn {
     display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #0a1f44;
+    padding: 10px 16px;
+    margin-top: 15px;
+    background: #8a6d4a;      /* brown accent */
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    transition: background 0.2s;
+    font-weight: bold;
 }
 
 .btn:hover {
-    background-color: #112d63;
+    background: #6e5438;      /* darker brown */
 }
 
-/* Footer */
+/* ------- Footer ------- */
 footer {
+    background: #d9c7a6;
     text-align: center;
     padding: 20px 0;
-    background: #0a1f44;
-    color: white;
-    margin-top: 40px;
+    margin-top: 50px;
+    border-top: 2px solid #b8a17c;
+}
+
+footer p {
+    color: #3c2f23;
+    font-size: 0.95rem;
 }
 
