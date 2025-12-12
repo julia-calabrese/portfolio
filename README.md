@@ -25,7 +25,7 @@ My projects highlight my ability to:
 
 ## Projects
 
-Below is a selection of coursework included in this portfolio.
+Selection of various projects completed in this portfolio.
 
 ### Costco Social Media Analysis   
 A professional analysis evaluating Costco’s use of social media based on Kolin’s *“Staying Connected on Social Media”* guidelines.  
