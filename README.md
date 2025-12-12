@@ -41,7 +41,7 @@ A recommendation report proposing the replacement of outdated exit signs with co
 
 ### ** Cybersecurity and Ransomware**  
 A research report that examines ransomware prevention techniques, evaluates how effective they are at reducing attacks, and analyzes whether organizations should pay a ransom.  
- [View PDF](7.1 Assignment.pdf)
+ [View PDF](Cybersecurity_And_Ransomware.pdf)
 
 ---
 
